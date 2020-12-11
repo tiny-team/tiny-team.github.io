@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  This is a blog made with Zola.
-</h1>
-<p>Click <a href="/blog/">here</a> to see posts.</p>
+<div class="title">
+  {{ section.title }}
+</div>
+<ul>
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock content %}

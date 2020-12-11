@@ -3,17 +3,50 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="sitemap" href="/sitemap.xml" />
   <title>Tiny Team Blog</title>
-  <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.css">
+  <style>
+    body {
+      margin: 2rem auto;
+    }
+
+    header div {
+      color: #666666;
+    }
+
+    nav {
+      padding-bottom: 20px;
+      border-bottom: 2px solid;
+    }
+
+    @media (min-width: 30rem) {
+      body {
+        width: 470px;
+      }
+    }
+
+    @media (min-width: 40rem) {
+      body {
+        width: 630px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/blog">Posts</a></li>
-    </ul>
-  </nav>
+  <header>
+    <div>
+      <h1>tiny-team adventures</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
   <section class="section">
     <div class="container">
       {% block content %} {% endblock %}

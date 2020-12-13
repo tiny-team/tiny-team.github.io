@@ -9,27 +9,86 @@
   <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.css">
   <style>
     body {
-      margin: 2rem auto;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+
+    body>header {
+      margin: 0;
     }
 
     header div {
       color: #666666;
     }
 
+    header,
     nav {
-      padding-bottom: 20px;
-      border-bottom: 2px solid;
+      background-color: lightgoldenrodyellow;
+      /* opacity: 0.1; */
+    }
+
+    nav {
+      margin: 0;
+      padding: 20px 0;
+    }
+
+    main,
+    header,
+    footer {
+      padding: 0 5px;
+    }
+
+    main {
+      border-top: 2px solid;
+      padding-top: 20px;
+      background-color: white;
+    }
+
+    ul.posts {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+    }
+
+    ul.posts li {
+      list-style-type: none;
     }
 
     @media (min-width: 30rem) {
       body {
         width: 470px;
       }
+
+      header,
+      nav {
+        background-color: white;
+      }
+
+      main {
+        border: none;
+        padding-top: 0;
+      }
+
+      ul.posts {
+        display: block;
+      }
     }
 
     @media (min-width: 40rem) {
       body {
         width: 630px;
+        font-size: 16px;
+      }
+
+      main {
+        border: none;
+        padding-top: 0;
+      }
+
+      ul.posts {
+        display: block;
       }
     }
   </style>
@@ -38,7 +97,7 @@
 <body>
   <header>
     <div>
-      <h1>&#149; tiny-team adventures &#149;</h1>
+      <h1>Tiny-Team Adventures</h1>
     </div>
     <nav>
       <ul>

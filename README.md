@@ -10,9 +10,10 @@ Run blog locally
 
 Clone the repo locally and then
 
+```
 $ cd your/cloned/folder
 $ zola serve
-
+```
 
 
 

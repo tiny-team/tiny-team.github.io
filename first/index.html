@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="sitemap" href="/sitemap.xml" />
+  <title>Tiny Team Blog</title>
+  <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.css">
+  <style>
+    body {
+      margin: 0 auto;
+      font-size: 18px;
+    }
+
+    body>header {
+      margin: 0;
+    }
+
+    header div {
+      color: #666666;
+    }
+
+    header,
+    nav {
+      background-color: lightgoldenrodyellow;
+      /* opacity: 0.1; */
+    }
+
+    nav {
+      margin: 0;
+      padding: 20px 0;
+    }
+
+    main,
+    header,
+    footer {
+      padding: 0 5px;
+    }
+
+    main {
+      border-top: 2px solid;
+      padding-top: 20px;
+      background-color: white;
+    }
+
+    ul.posts {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+    }
+
+    ul.posts li {
+      list-style-type: none;
+    }
+
+    @media (min-width: 30rem) {
+      body {
+        width: 470px;
+      }
+
+      header,
+      nav {
+        background-color: white;
+      }
+
+      main {
+        border: none;
+        padding-top: 0;
+      }
+
+      ul.posts {
+        display: block;
+      }
+    }
+
+    @media (min-width: 40rem) {
+      body {
+        width: 630px;
+        font-size: 16px;
+      }
+
+      main {
+        border: none;
+        padding-top: 0;
+      }
+
+      ul.posts {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Tiny-Team Adventures</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      
+<main>
+  <h2 class="title">
+    First post
+  </h2>
+  <p class="subtitle"><strong>2020-12-08</strong></p>
+  <p><p>Hello! This is Animesh. I have started this org tiny-team with an ex-colleague and friend Sai Raghava. Both of us are curious and passionate developers. Over the years, we have made a few attempts to collaborate on software projects. This is one of those attempts again and the most promising one so far.</p>
+<p>As a first project, we are working on a lightweight and self-hosted kanban application inspired by wekan, kanboard and such projects. We intend to dogfood this project fully and develop into a decent self-hosted alternative for developers.</p>
+<p>I am a full stack web developer with focus on ASP.NET Core, Angular and SQL Server, while Sai is a Backend developer with focus on Java and Microservices.</p>
+</p>
+</main>
+
+    </div>
+  </section>
+  <footer>
+    <span id="symbol"></span>
+  </footer>
+  <script>
+    let symbols = ['&#8853;', '&#8854;', '&#8855;', '&#8856;', '&#8857;', '&#8858;', '&#8859;', '&#8860;', '&#8861;'];
+    document.getElementById('symbol').innerHTML = symbols[Math.floor(Math.random() * 9)];
+  </script>
+</body>
+
+</html>

@@ -4,94 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block rss %}
+  <link rel="alternate" type="application/atom+xml" title="ATOM"
+    href="{{ get_url(path='atom.xml', trailing_slash=false) }}">
+  {% endblock %}
   <link rel="sitemap" href="/sitemap.xml" />
   <title>Tiny Team Blog</title>
   <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.css">
-  <style>
-    body {
-      margin: 0 auto;
-      font-size: 18px;
-    }
-
-    body>header {
-      margin: 0;
-    }
-
-    header div {
-      color: #666666;
-    }
-
-    header,
-    nav {
-      background-color: lightgoldenrodyellow;
-      /* opacity: 0.1; */
-    }
-
-    nav {
-      margin: 0;
-      padding: 20px 0;
-    }
-
-    main,
-    header,
-    footer {
-      padding: 0 5px;
-    }
-
-    main {
-      border-top: 2px solid;
-      padding-top: 20px;
-      background-color: white;
-    }
-
-    ul.posts {
-      display: flex;
-      flex-direction: column;
-      padding: 0;
-      margin: 0;
-      margin-top: 20px;
-    }
-
-    ul.posts li {
-      list-style-type: none;
-    }
-
-    @media (min-width: 30rem) {
-      body {
-        width: 470px;
-      }
-
-      header,
-      nav {
-        background-color: white;
-      }
-
-      main {
-        border: none;
-        padding-top: 0;
-      }
-
-      ul.posts {
-        display: block;
-      }
-    }
-
-    @media (min-width: 40rem) {
-      body {
-        width: 630px;
-        font-size: 16px;
-      }
-
-      main {
-        border: none;
-        padding-top: 0;
-      }
-
-      ul.posts {
-        display: block;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -103,6 +22,7 @@
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="/atom.xml">Feed</a></li>
       </ul>
     </nav>
   </header>

@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@main
     # Build & deploy
     - name: shalzz/zola-deploy-action
-      uses: shalzz/zola-deploy-action@main
+      uses: shalzz/zola-deploy-action@master
       env:
         # Target branch
         PAGES_BRANCH: gh-pages

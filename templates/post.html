@@ -2,10 +2,10 @@
 
 {% block content %}
 <main>
-  <h2 class="title">
+  <h2 class="section title">
     {{ page.title }}
   </h2>
-  <p class="subtitle"><strong>{{ page.date }}</strong></p>
+  <div><strong>{{ page.date }}</strong></div>
   <p>{{ page.content | safe }}</p>
 </main>
 {% endblock content %}

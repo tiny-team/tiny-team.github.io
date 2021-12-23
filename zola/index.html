@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="alternate" type="application/atom+xml" title="ATOM"
+    href="https://tiny-team.github.io/atom.xml">
+  
+  <link rel="sitemap" href="/sitemap.xml" />
+  <title>Tiny Team Blog</title>
+  <link rel="shortcut icon" href="/favicon-2.png" sizes="32x32" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon-1.png" sizes="64x64" type="image/x-icon">
+  <link rel="stylesheet" href="/awsm.css">
+  <style>
+    ul {
+      padding: 0;
+      list-style-type: none
+    }
+
+    .title {
+      margin-bottom: 50px
+    }
+
+    .section {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tiny-Team Adventures</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/atom.xml">Feed</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      
+<main>
+  <h2 class="section title">
+    Hello Zola
+  </h2>
+  <div><strong>2020-12-12</strong></div>
+  <p><p>This blog is built with <a href="https://getzola.org">Zola</a> static generator, a classless CSS framework <a href="https://github.com/igoradamenko/awsm.css">awsm.css</a> and Github Actions.</p>
+<h3 id="zola">Zola</h3>
+<p>Zola is a recent static generator written in Rust language. It generates pages fast, has a number of out of the box features for developers, like RSS, SASS compilation, syntax highlighting, search, taxonomies and more. Suffice it to say, it is a fairly full featured static generator.</p>
+<h3 id="awsm-css">awsm.css</h3>
+<p>Zola has support for themes and has a decent documentation to get you started. Recently I learned about the existence of classless CSS frameworks which are a perfect fit for static blogs, especially developer blogs. Of all, I found awsm.css to be most compatible to my needs. </p>
+<p>I just dropped in the <code>unpkg</code> reference in the base layout file with a few lines for the mobile-first design approach. That is it. Took me 2 minutes to do this. No need to get into git submodules, configure and tweak the theme etc.</p>
+<p>I like it so much that I am contemplating using it on my personal blog.</p>
+<h3 id="github-actions">Github Actions</h3>
+<p>Github Actions is a CI/CD offering by github. I have been meaning to try Github Actions out for a while and this blog seemed like the best scenario to do so. Basically the idea is to build a blog using Github Actions. In the near past, I have used Travis CI to do this, but given the recent news about Travis CI's support for OSS projects ending soon, I thought it to be another reason to jump into Actions.</p>
+<p>I used the <a href="https://www.getzola.org/documentation/deployment/github-pages/#github-actions">recommended</a> deploy action to get me started. It took me a while to get it up and running, but seemed like a good learning activity and fun overall.</p>
+</p>
+</main>
+
+    </div>
+  </section>
+  <footer>
+    &copy; 2020 Tiny Team
+  </footer>
+</body>
+
+</html>

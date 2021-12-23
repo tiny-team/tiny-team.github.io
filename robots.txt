@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tiny-team.github.io/sitemap.xml

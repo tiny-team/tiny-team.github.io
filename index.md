@@ -28,7 +28,7 @@ This section provides a walkthrough of the Store Dash user interface and its cap
 ### Admin Page
 
 # Developer Guide
-Developers who are interested in running our project locally must have Next.js and PostgreSQL installed. Our tech stack also uses ESLint, Typescript, Bootstrap 5, and React, with deployment via Vercel.
+Developers who are interested in running our project locally must have Next.js and PostgreSQL installed. Our tech stack also uses ESLint, Typescript, Bootstrap 5, and React.
 
 1. Clone the repository to your local computer.
 2. Change into the root directory for the project (store-dash) using `cd` command. Then install the necessary third party libraries using `npm install`.

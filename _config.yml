@@ -1,2 +1,10 @@
 title: Store Dash
-theme: minima
+description: For All Your Pantry Needs
+google_analytics:
+show_downloads: false
+theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/tiny-team/Store-Dash
+gems:
+  - jekyll-mentions

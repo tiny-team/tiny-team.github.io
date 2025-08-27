@@ -41,7 +41,7 @@ Then set up your .env.local file in the root of the project with the PostgreSQL 
 ## Milestone 1
 Milestone 1 aimed to establish a basic outline of our app’s design. Our primary focus was on creating the visual structure and layout to resemble a functional app, without yet implementing full functionality. By setting up the foundational framework, we can efficiently add and refine features in future milestones.
 
-Milestone 1 was managed using [Store Dash GitHub Project Board Milestone 1](https://github.com/orgs/tiny-team/projects/1/views/1):
+Milestone 1 was managed using [Store Dash GitHub Project Board Milestone 1](https://github.com/orgs/tiny-team/projects/1/views/1)
 
 # Contact Us
 Store Dash is designed, maintained, and implemented by [Jared Seto](https://jseto808.github.io/)

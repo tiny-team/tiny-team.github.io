@@ -27,8 +27,11 @@ This section provides a walkthrough of the Store Dash user interface and its cap
 ## For Regular Users
 ### Landing Page
 
-## For Admin Users
-### Admin Page
+### Sign In Page
+
+### Pantry Page
+
+### Shopping Page
 
 # Developer Guide
 Developers who are interested in running our project locally must have Next.js and PostgreSQL installed. Our tech stack also uses ESLint, Typescript, Bootstrap 5, and React.

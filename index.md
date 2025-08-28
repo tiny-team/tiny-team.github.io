@@ -44,4 +44,4 @@ Milestone 1 aimed to establish a basic outline of our app’s design. Our primar
 Milestone 1 was managed using [Store Dash GitHub Project Board Milestone 1](https://github.com/orgs/tiny-team/projects/1/views/1)
 
 # Contact Us
-Store Dash is designed, maintained, and implemented by [Jared Seto](https://jseto808.github.io/)
+Store Dash is designed, maintained, and implemented by [Jared Seto](https://jseto808.github.io/) , [Jerome Demesillo] (jeromedemesillo.github.io/)

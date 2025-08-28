@@ -16,6 +16,9 @@ To see the team contract for this project, click [here](https://docs.google.com/
 To see the GitHub Organization associated with this project, go to [https://github.com/tiny-team](https://github.com/tiny-team)
 
 # Overview
+Many households struggle to keep track of food items spread across pantries, refrigerators, freezers, and spice racks. With multiple storage spaces and no clear system, it becomes difficult to know what’s in stock, where items are located, or when something is running low or about to expire. This disorganization often leads to wasted food, duplicate purchases, and missed opportunities to plan meals efficiently.
+
+Store-Dash is a user-friendly web application designed to solve this issue. It provides an easy way to organize and track items across all storage locations, no matter how many pantries or fridges a household has. Users can add, remove, and update items, set refill levels, and generate shopping lists when supplies run low. The app can also be extended with features like recipe suggestions, expiration date tracking, and barcode scanning to make managing food storage even more seamless. By keeping everything in one place, the app helps users reduce waste, save money, and simplify everyday meal planning.
 
 
 # User Guide

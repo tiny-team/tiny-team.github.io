@@ -27,15 +27,19 @@ This section provides a walkthrough of the Store Dash user interface and its cap
 ## For Regular Users
 ### Landing Page
 <img src="images/StoreDash_LandingPageMockUp.png">
+Provides a snippet of the site's features and options to login
 
 ### Sign In Page
 <img src="images/StoreDash_SignInPageMockUp.png">
+Basic sign in page, offers login via username & password or option to create new account
 
 ### Pantry Page
 <img src="images/StoreDash_PantryPageMockUp.png">
+Displays items under each storage location & lists their type, picture, amount, and expiration date
 
 ### Shopping Page
 <img src="images/StoreDash_ShoppingPageMockUp.png">
+Includes list of items to buy & options to navigate back to other pages in side tabs
 
 # Developer Guide
 Developers who are interested in running our project locally must have Next.js and PostgreSQL installed. Our tech stack also uses ESLint, Typescript, Bootstrap 5, and React.

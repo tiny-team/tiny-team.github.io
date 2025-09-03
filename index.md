@@ -27,14 +27,17 @@ This section provides a walkthrough of the Store Dash user interface and its cap
 ## For Regular Users
 ### Landing Page
 <img src="images/StoreDash_LandingPageMockUp.png">
+<img src="images/Alternative_mockup.png">
 Provides a snippet of the site's features and options to login
 
 ### Sign In Page
 <img src="images/StoreDash_SignInPageMockUp.png">
+<img src="images/Alternative_Signin.png">
 Basic sign in page, offers login via username & password or option to create new account
 
 ### Pantry Page
 <img src="images/StoreDash_PantryPageMockUp.png">
+<img src="images/Alternative_Stock.png">
 Displays items under each storage location & lists their type, picture, amount, and expiration date
 
 ### Shopping Page
